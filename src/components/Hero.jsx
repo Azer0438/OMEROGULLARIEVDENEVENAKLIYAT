@@ -16,19 +16,19 @@ export default function Hero({ contactInfo, onHeroSubmit }) {
             </a>
             <a
               className="btn btn-secondary"
-              href={`https://wa.me/${contactInfo.phoneRaw}?text=Merhaba,%20nakliyat%20için%20bilgi%20almak%20istiyorum.`}
+              href={`https://wa.me/${contactInfo.whatsappRaw}?text=Merhaba,%20nakliyat%20için%20bilgi%20almak%20istiyorum.`}
               target="_blank"
               rel="noreferrer"
             >
               WhatsApp'tan Yaz
             </a>
-            <a className="btn btn-secondary" href={`tel:+${contactInfo.phoneRaw}`}>
+            <a className="btn btn-secondary" href={`tel:+${contactInfo.callRaw}`}>
               Hemen Ara
             </a>
           </div>
 
           <div className="hero-contact-strip reveal">
-            <a href={`tel:+${contactInfo.phoneRaw}`}>{contactInfo.phoneDisplay}</a>
+            <a href={`tel:+${contactInfo.callRaw}`}>{contactInfo.callDisplay}</a>
             <span>{contactInfo.email}</span>
             <span>{contactInfo.address}</span>
           </div>

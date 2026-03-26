@@ -74,7 +74,7 @@ export default function HomePage({
             name: "Ömeroğulları Nakliyat",
             description: "Kayseri merkezli evden eve taşımacılık, ofis taşıma, asansörlü taşıma ve şehirlerarası nakliyat hizmetleri.",
             areaServed: contactMeta.serviceRadius,
-            telephone: "+90 505 081 0238",
+            telephone: "+90 553 855 8745",
             email: contactInfo.email,
             openingHours: contactMeta.hoursIso,
             address: {

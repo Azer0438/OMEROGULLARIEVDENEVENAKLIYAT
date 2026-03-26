@@ -68,7 +68,7 @@ export default function ServiceDetailPage({ services }) {
               <div className="hero-actions">
                 <a
                   className="btn btn-primary"
-                  href={`https://wa.me/${contactInfo.phoneRaw}?text=${encodeURIComponent(`Merhaba, ${service.title} hakkında bilgi ve teklif almak istiyorum.`)}`}
+                  href={`https://wa.me/${contactInfo.whatsappRaw}?text=${encodeURIComponent(`Merhaba, ${service.title} hakkında bilgi ve teklif almak istiyorum.`)}`}
                   target="_blank"
                   rel="noreferrer"
                 >

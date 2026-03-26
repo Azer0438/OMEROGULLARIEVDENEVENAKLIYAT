@@ -1,6 +1,8 @@
 export const contactInfo = {
-  phoneRaw: "905050810238",
-  phoneDisplay: "0505 081 02 38",
+  whatsappRaw: "905050810238",
+  whatsappDisplay: "0505 081 02 38",
+  callRaw: "905538558745",
+  callDisplay: "0553 855 87 45",
   email: "info@omerogullarinakliyat.com",
   address: "Kayseri Merkez / Türkiye"
 };

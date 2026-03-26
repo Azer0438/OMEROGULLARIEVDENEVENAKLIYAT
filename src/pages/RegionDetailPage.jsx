@@ -62,7 +62,7 @@ export default function RegionDetailPage({ seoPages, listPath, buttonLabel }) {
               <div className="hero-actions">
                 <a
                   className="btn btn-primary"
-                  href={`https://wa.me/${contactInfo.phoneRaw}?text=${encodeURIComponent(`Merhaba, ${page.title} için teklif almak istiyorum.`)}`}
+                  href={`https://wa.me/${contactInfo.whatsappRaw}?text=${encodeURIComponent(`Merhaba, ${page.title} için teklif almak istiyorum.`)}`}
                   target="_blank"
                   rel="noreferrer"
                 >

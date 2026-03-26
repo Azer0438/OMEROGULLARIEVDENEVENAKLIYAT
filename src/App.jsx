@@ -43,7 +43,7 @@ function validatePhone(phone) {
 }
 
 function buildWhatsAppUrl(message) {
-  return `https://wa.me/${contactInfo.phoneRaw}?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/${contactInfo.whatsappRaw}?text=${encodeURIComponent(message)}`;
 }
 
 function openWhatsApp(message) {

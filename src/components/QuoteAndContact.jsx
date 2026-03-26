@@ -134,7 +134,7 @@ export function ContactSection({ contactInfo, contactMeta, footerServiceAreas })
           <h2 className="section-title">Bize en hızlı şekilde ulaşın</h2>
           <p className="section-text">Kayseri merkezli hizmet veriyoruz. Hızlı teklif, keşif ve planlama için bize hemen ulaşabilirsiniz.</p>
           <div className="contact-list">
-            <a href={`tel:+${contactInfo.phoneRaw}`}>Telefon: {contactInfo.phoneDisplay}</a>
+            <a href={`tel:+${contactInfo.callRaw}`}>Telefon: {contactInfo.callDisplay}</a>
             <a href={`mailto:${contactInfo.email}`}>E-posta: {contactInfo.email}</a>
             <span>Adres: {contactInfo.address}</span>
             <span>Çalışma saatleri: {contactMeta.hours}</span>

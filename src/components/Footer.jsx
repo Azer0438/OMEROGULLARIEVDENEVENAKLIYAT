@@ -15,7 +15,7 @@ export default function Footer({ sectionLinks, pageLinks, contactInfo, contactMe
             <img className="footer-logo" src="/branding/logo-horizontal.png" alt="Ömeroğulları Nakliyat yatay logo" />
             <p className="footer-text">Kayseri'de güvenli, planlı ve profesyonel taşımacılık hizmeti.</p>
             <div className="footer-contact-list">
-              <a href={`tel:+${contactInfo.phoneRaw}`}>{contactInfo.phoneDisplay}</a>
+              <a href={`tel:+${contactInfo.callRaw}`}>{contactInfo.callDisplay}</a>
               <a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a>
               <span>{contactMeta.addressLine}</span>
               <span>{contactMeta.hours}</span>
@@ -49,7 +49,7 @@ export default function Footer({ sectionLinks, pageLinks, contactInfo, contactMe
             </div>
             <a
               className="footer-whatsapp"
-              href={`https://wa.me/${contactInfo.phoneRaw}?text=Merhaba,%20nakliyat%20için%20bilgi%20almak%20istiyorum.`}
+              href={`https://wa.me/${contactInfo.whatsappRaw}?text=Merhaba,%20nakliyat%20için%20bilgi%20almak%20istiyorum.`}
               target="_blank"
               rel="noreferrer"
             >
@@ -61,7 +61,7 @@ export default function Footer({ sectionLinks, pageLinks, contactInfo, contactMe
 
       <a
         className="floating-whatsapp"
-        href={`https://wa.me/${contactInfo.phoneRaw}?text=Merhaba,%20nakliyat%20için%20teklif%20almak%20istiyorum.`}
+        href={`https://wa.me/${contactInfo.whatsappRaw}?text=Merhaba,%20nakliyat%20için%20teklif%20almak%20istiyorum.`}
         target="_blank"
         rel="noreferrer"
         aria-label="WhatsApp üzerinden iletişime geç"
@@ -70,9 +70,9 @@ export default function Footer({ sectionLinks, pageLinks, contactInfo, contactMe
       </a>
 
       <div className="mobile-cta-bar">
-        <a href={`tel:+${contactInfo.phoneRaw}`}>Ara</a>
+        <a href={`tel:+${contactInfo.callRaw}`}>Ara</a>
         <a
-          href={`https://wa.me/${contactInfo.phoneRaw}?text=Merhaba,%20nakliyat%20için%20bilgi%20almak%20istiyorum.`}
+          href={`https://wa.me/${contactInfo.whatsappRaw}?text=Merhaba,%20nakliyat%20için%20bilgi%20almak%20istiyorum.`}
           target="_blank"
           rel="noreferrer"
         >
