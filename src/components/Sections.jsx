@@ -77,6 +77,32 @@ export function WhyUsSection({ cards }) {
   );
 }
 
+export function LocalPartnerSection() {
+  return (
+    <section className="section-block local-partner-section">
+      <div className="section-shell local-partner-card reveal">
+        <div>
+          <p className="eyebrow">Yerel Çözüm Ağı</p>
+          <h2>Kayseri'de farklı taşıma ihtiyaçları için güvenilir bağlantı</h2>
+          <p>
+            Kayseri'de ev taşıma, şehirlerarası nakliyat veya asansörlü taşıma araştıran ziyaretçilerimiz,
+            yerel çözüm seçeneklerini karşılaştırmak için{" "}
+            <a
+              href="https://www.azrevdenevenakliyat.com.tr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="AZR Evden Eve Nakliyat Kayseri hizmetlerini incele"
+            >
+              AZR Evden Eve Nakliyat
+            </a>{" "}
+            hizmetlerini de inceleyebilir.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export function TestimonialsSection({ testimonials }) {
   return (
     <section className="section-block section-soft" id="yorumlar">

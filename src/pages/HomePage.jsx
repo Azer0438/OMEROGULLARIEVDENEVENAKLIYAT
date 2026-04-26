@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import {
   ConversionSection,
   FaqSection,
+  LocalPartnerSection,
   LocalSeoSection,
   ProcessSection,
   ServiceAreaSection,
@@ -106,6 +107,7 @@ export default function HomePage({
       <LocalSeoSection blocks={localSeoBlocks} badges={trustBadges} />
       <ProcessSection steps={processSteps} />
       <WhyUsSection cards={whyUsCards} />
+      <LocalPartnerSection />
       <ServiceAreaSection groups={serviceAreaGroups} />
       <TestimonialsSection testimonials={testimonials} />
       <PreviewSection
