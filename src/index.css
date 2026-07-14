@@ -769,6 +769,25 @@ textarea {
   margin-top: 12px;
 }
 
+.detail-card a {
+  color: var(--brand);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.article-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+  padding-left: 22px;
+  color: var(--muted);
+}
+
+.article-list li {
+  line-height: 1.7;
+}
+
 .preview-card a,
 .preview-action a {
   margin-top: 18px;

@@ -406,6 +406,289 @@ export const galleryItems = [
 
 export const blogPosts = [
   {
+    slug: "yeni-eve-tasinirken-dogalgaz-aboneligi-gaz-acma-islemleri",
+    title: "Yeni Eve Taşınırken Doğalgaz Aboneliği ve Gaz Açma İşlemleri",
+    seoTitle: "Taşınırken Doğalgaz Aboneliği ve Gaz Açma | Ömeroğulları",
+    metaDescription:
+      "Yeni eve taşınırken doğalgaz aboneliği, proje kontrolü, gaz açma randevusu ve kombi devreye alma sürecinde dikkat edilmesi gerekenleri öğrenin.",
+    primaryKeyword: "taşınırken doğalgaz aboneliği",
+    secondaryKeywords: [
+      "yeni ev doğalgaz aboneliği",
+      "doğalgaz gaz açma işlemleri",
+      "Kayseri doğalgaz proje işlemleri",
+      "taşınırken abonelik işlemleri"
+    ],
+    category: "Taşınma Rehberi",
+    cover: {
+      label: "Doğalgaz Aboneliği",
+      gradient: "linear-gradient(135deg, #5b0e12, #b5121b 58%, #f3c96a)"
+    },
+    date: "14 Temmuz 2026",
+    publishedAt: "2026-07-14",
+    updatedAt: "2026-07-14",
+    readTime: "9 dk",
+    excerpt:
+      "Yeni eve taşınırken doğalgaz aboneliği, proje kontrolü, gaz açma randevusu ve kombi devreye alma sürecinde dikkat edilmesi gerekenleri öğrenin.",
+    sections: [
+      {
+        heading: "Taşınırken doğalgaz aboneliği neden önceden planlanmalı?",
+        content: [
+          {
+            type: "paragraph",
+            text:
+              "Yeni bir eve taşınırken nakliye planının yanı sıra elektrik, su, internet ve doğalgaz aboneliklerinin de önceden hazırlanması gerekir. Özellikle doğalgaz işlemlerinin taşınma gününe bırakılması, yeni evde sıcak su ve ısınma hizmetinin gecikmesine neden olabilir."
+          },
+          {
+            type: "paragraph",
+            text:
+              "Taşınacağınız konutta daha önce doğalgaz kullanılmış olsa bile mevcut aboneliğin durumu, tesisatın projeye uygunluğu ve gaz açma işlemleri ayrıca kontrol edilmelidir. Süreci önceden planlamak, taşınma sonrasında yaşanabilecek beklemeleri azaltır."
+          }
+        ]
+      },
+      {
+        heading: "1. Eski evdeki abonelik durumunu kontrol edin",
+        content: [
+          {
+            type: "paragraph",
+            text:
+              "Taşınmadan önce mevcut evinizde üzerinize kayıtlı doğalgaz aboneliği bulunuyorsa kapatma veya devir işlemleri hakkında bilgi alın."
+          },
+          {
+            type: "paragraph",
+            text:
+              "Sayaç bilgilerini ve son endeks değerini kontrol etmek, son faturayla ilgili oluşabilecek karışıklıkları önlemeye yardımcı olabilir. Abonelik kapatma sürecini nakliye tarihinden çok önce tamamlamak ise taşınma gününe kadar doğalgazı kullanamamanıza neden olabilir."
+          },
+          {
+            type: "paragraph",
+            text:
+              "Bu nedenle eski evdeki abonelik işlemlerini taşınma planıyla birlikte yürütmek daha doğru olacaktır."
+          }
+        ]
+      },
+      {
+        heading: "2. Yeni konutta daha önce doğalgaz kullanılıp kullanılmadığını öğrenin",
+        content: [
+          {
+            type: "paragraph",
+            text:
+              "Taşınacağınız evde kombi, doğalgaz sayacı veya tesisat boruları bulunması, sistemin kullanıma hazır olduğu anlamına gelmez."
+          },
+          {
+            type: "paragraph",
+            text: "Ev sahibinden veya önceki kullanıcıdan şu bilgileri isteyebilirsiniz:"
+          },
+          {
+            type: "list",
+            items: [
+              "Konutta daha önce doğalgaz kullanıldı mı?",
+              "Önceki abonelik kapatıldı mı?",
+              "Tesisatta yakın zamanda değişiklik yapıldı mı?",
+              "Kombinin veya ocağın yeri değiştirildi mi?",
+              "Mevcut doğalgaz projesiyle ilgili bir sorun yaşandı mı?",
+              "Gaz sayacı aktif durumda mı?"
+            ]
+          },
+          {
+            type: "paragraph",
+            text:
+              "Bu bilgiler, yalnızca yeni abonelik yapılmasının yeterli olup olmadığını veya proje ve tesisat kontrolü gerekip gerekmediğini anlamanızı kolaylaştırır."
+          }
+        ]
+      },
+      {
+        heading: "3. Abonelik ve gaz açma işlemlerini birbirinden ayırın",
+        content: [
+          {
+            type: "paragraph",
+            text:
+              "Doğalgaz abonelik sözleşmesinin tamamlanması, gazın aynı anda kullanıma açılacağı anlamına gelmeyebilir. Tesisatın durumuna göre kontrol, uygunluk ve gaz açma randevusu gibi ek aşamalar bulunabilir."
+          },
+          {
+            type: "paragraph",
+            text:
+              "Aksa Doğalgaz'ın konut aboneliği açıklamasına göre abonelik sözleşmesinden sonra tesisatçı firmanın gaz açma randevusu talep etmesi, dağıtım şirketi kontrolünün ardından uygunluk verilmesi ve cihazların yetkili servis tarafından devreye alınması gerekebilir."
+          },
+          {
+            type: "paragraph",
+            text:
+              "Bu nedenle abonelik başvurusunu taşınma sabahına bırakmak yerine işlemleri birkaç gün önceden araştırmak faydalıdır."
+          }
+        ]
+      },
+      {
+        heading: "4. Tesisat veya proje değişikliği bulunup bulunmadığını kontrol ettirin",
+        content: [
+          {
+            type: "paragraph",
+            text:
+              "Önceki kullanıcı tarafından yapılan bazı değişiklikler mevcut doğalgaz projesini etkileyebilir. Özellikle aşağıdaki durumlarda proje veya tesisat kontrolü gerekebilir:"
+          },
+          {
+            type: "list",
+            items: [
+              "Kombinin yerinin değiştirilmesi",
+              "Ocağın farklı bir bölüme taşınması",
+              "Doğalgaz borularına yeni bağlantı eklenmesi",
+              "Balkonun kapatılması",
+              "Mutfak yerleşiminin değiştirilmesi",
+              "Eski cihazın yerine farklı özellikte cihaz takılması",
+              "Tesisatın uzun süre kullanılmamış olması"
+            ]
+          },
+          {
+            type: "paragraph",
+            text:
+              "Bu tür değişiklikler bulunuyorsa gaz açma başvurusundan önce uzman değerlendirmesi alınması sürecin uzamasını önleyebilir."
+          },
+          {
+            type: "paragraph",
+            parts: [
+              "Kayseri'de proje çizimi, resmi başvuru ve revizyon takibi konusunda destek almak için ",
+              {
+                type: "externalLink",
+                href: "https://www.dogtekdogalgazmuhendislik.com/hizmetler/aksagaz-proje-cizimi",
+                text: "Doğtek Doğalgaz Mühendislik'in Aksa Gaz proje çizimi ve takip hizmetini"
+              },
+              " inceleyebilirsiniz."
+            ]
+          },
+          {
+            type: "paragraph",
+            text:
+              "Doğtek'in ilgili hizmet sayfası; proje çizimi, başvuru ve gerekli durumlarda revizyon takibine odaklandığı için bu yazıdan yönlendirilecek en alakalı sayfadır."
+          }
+        ]
+      },
+      {
+        heading: "5. Gaz açma randevusundan önce evi hazır hale getirin",
+        content: [
+          {
+            type: "paragraph",
+            text:
+              "Kontrol veya gaz açma için eve görevli ekip gelecekse tesisatın bulunduğu alanların erişilebilir durumda olması gerekir."
+          },
+          {
+            type: "paragraph",
+            text: "Taşınma kolilerini aşağıdaki alanların önüne yerleştirmemeye dikkat edin:"
+          },
+          {
+            type: "list",
+            items: [
+              "Doğalgaz sayacı",
+              "Ana doğalgaz vanası",
+              "Kombi ve alt bağlantıları",
+              "Ocak bağlantısı",
+              "Havalandırma menfezleri",
+              "Tesisat boruları"
+            ]
+          },
+          {
+            type: "paragraph",
+            text:
+              "Kontrol yapılacak gün evde işlemleri takip edebilecek bir kişinin bulunması da önemlidir."
+          }
+        ]
+      },
+      {
+        heading: "6. Kombi ve diğer cihazları yetkili servis süreci tamamlanmadan kullanmayın",
+        content: [
+          {
+            type: "paragraph",
+            text:
+              "Gaz açma işlemiyle cihazın çalıştırılması aynı aşama olmayabilir. Kombi veya diğer doğalgazlı cihazların kullanımına ilişkin devreye alma işlemleri için cihazın yetkili servisiyle görüşülmesi gerekebilir."
+          },
+          {
+            type: "paragraph",
+            text:
+              "Yetkili servis sırasında cihazın çalışması, bağlantıları ve temel kullanım ayarları kontrol edilebilir. Özellikle yeni takılmış veya uzun süredir kullanılmamış cihazları gelişigüzel çalıştırmamak gerekir."
+          }
+        ]
+      },
+      {
+        heading: "7. Taşınma günü tesisata zarar verilmemesine dikkat edin",
+        content: [
+          {
+            type: "paragraph",
+            text:
+              "Büyük mobilyaların, beyaz eşyaların ve kolilerin taşınması sırasında doğalgaz borularına veya kombi bağlantılarına çarpılabilir."
+          },
+          {
+            type: "paragraph",
+            text: "Taşıma başlamadan önce nakliye ekibine şu alanları gösterin:"
+          },
+          {
+            type: "list",
+            items: [
+              "Kombinin bulunduğu bölüm",
+              "Açıkta kalan tesisat boruları",
+              "Doğalgaz sayacı",
+              "Mutfaktaki ocak bağlantısı",
+              "Dar koridor veya balkon geçişleri"
+            ]
+          },
+          {
+            type: "paragraph",
+            text:
+              "Özellikle buzdolabı, gardırop ve koltuk gibi büyük eşyaların taşınma güzergahı önceden planlanmalıdır."
+          }
+        ]
+      },
+      {
+        heading: "8. Gaz kokusu fark edildiğinde müdahale etmeyin",
+        content: [
+          {
+            type: "paragraph",
+            text:
+              "Yeni eve girdiğinizde veya taşınma sırasında gaz kokusu fark ederseniz kendi imkanlarınızla tesisatı sökmeye, cihazı çalıştırmaya veya sorunun kaynağını ateşle test etmeye çalışmayın."
+          },
+          {
+            type: "paragraph",
+            text:
+              "Kaçak ve sızıntı gibi acil durumlarda 187 Doğal Gaz Acil Hattı aranmalıdır. Aksa Doğalgaz da 187 hattını kaçak ve sızıntı gibi acil durumlar için belirtmektedir."
+          }
+        ]
+      },
+      {
+        heading: "Taşınmadan önce doğalgaz kontrol listesi",
+        content: [
+          {
+            type: "paragraph",
+            text: "Taşınma tarihinden önce şu maddeleri tamamlayın:"
+          },
+          {
+            type: "list",
+            items: [
+              "Eski evdeki abonelik durumunu kontrol edin.",
+              "Yeni evin daha önce doğalgaz kullanıp kullanmadığını öğrenin.",
+              "Sayaç ve tesisat bilgilerini ev sahibinden isteyin.",
+              "Kombi veya ocak yerinde değişiklik yapılıp yapılmadığını sorun.",
+              "Proje ya da tesisat kontrolü gerekip gerekmediğini belirleyin.",
+              "Abonelik işlemlerini taşınma gününe bırakmayın.",
+              "Gaz açma ve yetkili servis süreçlerini ayrı ayrı planlayın.",
+              "Sayaç, vana ve kombi çevresini boş bırakın.",
+              "Nakliye ekibini tesisatın bulunduğu alanlar hakkında bilgilendirin."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Planlı taşınma, daha hızlı yerleşme",
+        content: [
+          {
+            type: "paragraph",
+            text:
+              "Doğalgaz işlemleri önceden planlandığında yeni evde ısınma ve sıcak su konusunda yaşanabilecek gecikmeler azaltılabilir."
+          },
+          {
+            type: "paragraph",
+            text:
+              "Ömeroğulları Nakliyat ile taşınma planı oluştururken yeni ve eski adresin kat bilgilerini, bina girişini, büyük eşya listesini ve tesisat çevresindeki dar alanları önceden paylaşmanız taşıma sürecinin daha düzenli ilerlemesine yardımcı olur."
+          }
+        ]
+      }
+    ]
+  },
+  {
     slug: "tasinma-oncesi-kontrol-listesi",
     title: "Taşınma Öncesi Kontrol Listesi",
     category: "Planlama",
